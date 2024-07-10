@@ -146,6 +146,7 @@ func fpdfNew(orientationStr, unitStr, sizeStr, fontDirStr string, size SizeType)
 	f.stdPageSizes["a7"] = SizeType{209.76, 297.64}
 	f.stdPageSizes["a2"] = SizeType{1190.55, 1683.78}
 	f.stdPageSizes["a1"] = SizeType{1683.78, 2383.94}
+	f.stdPageSizes["custom"] = SizeType{198.42, 56.70}
 	f.stdPageSizes["letter"] = SizeType{612, 792}
 	f.stdPageSizes["legal"] = SizeType{612, 1008}
 	f.stdPageSizes["tabloid"] = SizeType{792, 1224}
