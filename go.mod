@@ -1,4 +1,4 @@
-module github.com/go-pdf/fpdf
+module github.com/chekun/fpdf
 
 go 1.21
 
